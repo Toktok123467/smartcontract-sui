@@ -1,4 +1,4 @@
-module 0xe0bbe0028343df0aba72f60e8bfb00f6209a6de3cd7098dcad689089684afc0e::stake_vote_toktok {
+module 0xf35829f4289a88a98f05391c08df74d258e1a52869d5ee9e29596e50592475d1::stake_vote_toktok {
 
     use std::error;
     use std::signer;
