@@ -18,10 +18,11 @@ TOKTOK
 
 ## 📦 Smart Contract Details
 
-- **Module Address:** `0xe0bbe0028343df0aba72f60e8bfb00f6209a6de3cd7098dcad689089684afc0e`
+- **Module Address:** `0xf35829f4289a88a98f05391c08df74d258e1a52869d5ee9e29596e50592475d1`
 - **Module Name:** `stake_vote_toktok`
 - Decimals: 8
-
+- publisher: 0x9c19049d269c7e153b458d9b9ac9f2c5209243836967ab16fc3b2e01f7ba0dc1
+- https://suiscan.xyz/devnet/object/0xf35829f4289a88a98f05391c08df74d258e1a52869d5ee9e29596e50592475d1/tx-blocks
 Total Supply: 1,000,000,000 Tkt
 Utility:
 Used for staking to vote in community decisions (e.g., voice NFT battles, remix contests).
