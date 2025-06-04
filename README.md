@@ -48,14 +48,16 @@ Reward Distribution:
 Rewards can be distributed to users who staked on the winning creator.
 Creators can also receive bonus TKT based on votes earned.
 
+
 Data Structures
 struct RewardPool has key {
     id: UID,
     pool_balance: Balance<TokTokToken>,
 }
 
+
+
  Updated Functions
-1. Initialize a Reward Pool
 public fun create_reward_pool(
     ctx: &mut TxContext
 ): RewardPool {
@@ -63,10 +65,9 @@ public fun create_reward_pool(
     let pool_balance = balance::zero<TokTokToken>();
     RewardPool { id, pool_balance }
 }
+
+
 2. Fund the Reward Pool
-move
-Copy
-Edit
 public fun fund_pool(
     pool: &mut RewardPool,
     coins: Coin<TokTokToken>
